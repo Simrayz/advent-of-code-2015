@@ -1,0 +1,14 @@
+[package]
+name = "day-00"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+miette.workspace = true
+test-log.workspace = true
+divan.workspace = true
+
+[[bench]]
+name = "day-00-bench"
+path = "benches/benchmarks.rs"
+harness = false
