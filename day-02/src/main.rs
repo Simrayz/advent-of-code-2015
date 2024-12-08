@@ -1,3 +1,7 @@
+use day_02::*;
+
 fn main() {
-    println!("Hello, world!");
+    let input = include_str!("../input1.txt");
+    println!("Part1: {}", part1::process(input).unwrap());
+    println!("Part2: {}", part2::process(input).unwrap());
 }
