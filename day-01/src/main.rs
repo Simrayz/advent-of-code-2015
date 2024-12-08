@@ -1,5 +1,5 @@
 fn main() {
-    let input: &str = include_str!("../input.txt");
+    let input: &str = include_str!("../input2.txt");
     let mut basement_idx = 0;
     let mut basement_found = false;
     let mut current_level = 0;
