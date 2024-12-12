@@ -1,4 +1,5 @@
 pub fn process(input: &str) -> miette::Result<String> {
+    println!("{}", input);
     Ok("".to_string())
 }
 
